@@ -1,0 +1,313 @@
+/***********************************************************************************/
+/**************** INÍCIO DOS ELEMENTOS COMUNS PARA TODAS AS PÁGINAS ****************/
+/***********************************************************************************/
+body {
+    /* falta propriedade aqui de largura em % */
+    width: 100%;
+    background-position: 50%, 50%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(243, 243, 243); 
+}
+
+a {
+    color: rgb(81, 185, 255);
+    /* falta propriedade aqui.*/
+}
+
+a:hover {
+    color: blue;
+	text-decoration: none;
+}
+
+/***** INÍCIO DO HEADER DA PÁGINA  ******/
+body>header{
+    /* falta propriedade aqui de largura em % */
+    width: 100%;
+    /* falta propriedade aqui de margem */ 
+    margin: 0px;
+    padding: 10px;
+    /* falta propriedade aqui de altura */
+    height: 100px;
+    background: rgb(51, 51, 51);
+}
+
+#logo {
+    /* precisa de propriedades aqui? */
+    float: none;
+    margin-left: 159px;
+}
+
+.wrap-header{
+    width: 960px;
+    padding-top: 5px;
+    /* falta propriedade aqui para centralizar utilizando a margem */
+    margin: center;
+}
+
+/***** INÍCIO DOS ESTILOS DO MENU QUE FICAM NO TOPO DA PÁGINA ******/
+#menu {
+    height: 37px;
+    /* falta propriedade aqui de flutuação */
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul {
+    /* precisa de propriedades aqui? */
+    margin-top: -121px;
+    margin-right: -346px;
+}
+
+#menu ul li {
+    /* falta propriedade aqui de flutuação */
+    float: none; 
+    padding: 15px 15px 15px 15px;    
+    /* falta propriedade aqui de altura dos elementos em px */
+    height: 90px;
+    /* falta propriedade aqui de largura em px */
+    width: auto;
+    /* falta propriedade aqui de centralizar o texto no meio */
+    text-align: center, top;
+    /* falta propriedade aqui para fazer a transição */
+      
+	animation: exemplo 1s;
+	-moz-animation: exemplo 1s;
+	-webkit-animation: exemplo 1s;
+	-o-animation: exemplo 1s;	
+    display: inline-block;
+    align-content: flex-end;
+}
+
+#menu ul li:hover {
+    background-color:  rgb(81, 185, 255);
+}
+
+#menu ul li:hover {
+    background-color:  rgb(81, 185, 255);
+}
+
+#menu ul li a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    /* falta propriedade aqui */
+    padding: 6px 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu a {
+    color: #FFF;
+    /* precisa de propriedades aqui? */
+}
+
+/***** ESTILO PARA LIMPAR A FLUTUAÇÃO ******/
+.clear {
+    clear: both;
+}
+
+/***** PARTE CENTRAL DA PÁGINA  ******/
+.layoutCentro{
+    /* falta propriedade aqui de centralizar o elemento no meio da página*/
+    /* falta propriedade aqui de largura em px */
+    width: 960px;
+    margin-left: 171px;
+    float: none;
+    background-color: white; 
+    display: table;
+    text-align: left;
+}
+
+.layoutCentro header{
+    /* falta propriedade aqui */
+    float: auto;
+    border-bottom-left-radius: 1px dashed rgb(51, 51, 51);
+}
+
+.layoutCentro header h4{
+    line-height: 0;
+    margin-top: 50px;
+}
+
+/***** PARTE DA LATERAL À ESQUERDA DA PARTE CENTRAL DA PÁGINA (ONDE FICAM OS FORMULÁRIOS E LINKS RÁPIDOS)  ******/
+.layoutCentro .lateral{
+    width: 30%;
+    /* falta propriedade aqui */
+    float: left;
+    background-color: #fff;
+    /* falta propriedade aqui */
+    /* falta propriedade aqui */
+}
+
+/***** INÍCIO DO FORMULÁRIO DE LOGIN ******/
+#acessoConta{
+    display: block;
+}
+
+input{
+    margin: 5px 0;
+}
+
+/***** INÍCIO DOS LINKS RÁPIDOS ******/ 
+.links {
+    padding-inline-start: 17px;
+}
+
+.links > li{
+    border-bottom: 1px solid rgb(225, 225, 225);
+    /* falta propriedade aqui ? */
+}
+
+.links > li > a{
+     /* precisa de propriedade aqui para alterar a cor do texto */
+     color: black;
+     /* precisa de propriedade aqui para remover a decoração do link */
+     text-decoration: none;
+     
+}
+
+.links > li > a:hover{
+    /* precisa de propriedades aqui para alterar a cor */
+    color: red;
+}
+
+/***** PARTE RESTANTE DA PARTE CENTRAL DA PÁGINA (ONDE FICAM OS CONTEÚDOS PRINCIPAIS DAS PÁGINAS)  ******/
+.centro{
+    /* falta propriedade aqui para a largura em % */
+    width: 70%;
+    /* falta propriedade aqui para ajustar o layout */
+    float: right;
+    background-color: #fff;
+    /* falta propriedade aqui */
+    box-sizing: border-box;
+}
+
+a.button {
+    cursor: pointer;
+     /* falta propriedade aqui de deixar o texto em na cor rgb(255, 255, 255) */
+    background-color: rgb(255, 255, 255);
+    line-height: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* falta propriedade aqui de deixar o texto em negrito */
+    font-weight: bold;
+    background: rgb(63, 63, 63);
+    /* falta propriedade aqui de arredondar a borda */
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+#enviar{
+     /* precisa de propriedades aqui? */
+     /* não achei botão de enviar por isso não completei */
+}
+
+/* BLOCOS DE ARTICLES DA PÁGINA INDEX.HTML */
+.bloco {
+    /* falta propriedade aqui para ajustar o layout flutuante */
+    float: left;
+    /* falta propriedade aqui de largura em 50% */
+    width: 50%;
+    /* falta propriedade aqui */
+    margin: 0px;
+    /* falta propriedade aqui para inserir a borda */
+    box-sizing: border-box;    
+    /* falta propriedade aqui para ajustar o padding para ? px em cima e embaixo, e ? px para os lados */
+    padding: 0px 30px 0px 30px;
+}
+
+/***********************************************************************************/
+/********************** INÍCIO DO RODAPÉ DE TODAS AS PÁGINAS ***********************/
+/***********************************************************************************/
+.row_footer {
+     /* precisa de propriedade aqui para centralizar o elemento */
+     justify-content: center;
+     text-align: center;
+     display: inline-block;
+     display: flex;
+     /* precisa de propriedade aqui para deixar a largura fixa em px */
+    width: 960px;
+}
+
+footer {
+    background-color: gray;
+    padding-left: 172px;
+    text-align: center;
+}
+
+footer .heading {
+    padding: 5px;
+    border-bottom: 3px double #ffffff;
+}
+
+footer .heading h2 {
+    font-size: 22px;
+    font-weight: normal;
+    padding: 0 10px;
+}
+
+.box_footer {
+    /* falta propriedade aqui */
+    /* falta propriedade aqui para ajustar a largura em % */
+    color: rgb(255, 255, 255);
+    /* falta propriedade aqui que deixa o texto centralizado */
+    text-align: center;
+    /* falta propriedade aqui que utiliza como valor border-box */
+    padding: 10px;
+}
+.copyright{
+
+    /* Falta colocar o seletor para o elemento com classe copyright * / {
+    text-align: center; */
+    text-align: center;
+    /* falta propriedade aqui para ajustar uma das margens */
+    margin-left: -172px;
+    /* falta propriedade aqui para mudar a cor de fundo */
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+}
+
+/***********************************************************************************/
+/********************** INÍCIO DA PÁGINA DE GUIA MÉDICO ****************************/
+/***********************************************************************************/
+.pesquisa article{
+    /* falta propriedade aqui para configurar a largura em %*/
+}
+
+label{
+    /* falta propriedade aqui */
+}
+
+.pesquisa input[type="text"],
+.pesquisa input[list],
+.pesquisa select {
+     /* precisa de propriedades aqui? */
+}
+
+.medico{
+    /* precisa de propriedades aqui? */
+}
+
+.medico>img{
+   /* precisa de propriedades aqui? margem? largura? */
+}
+
+.figMedico{
+    /* falta propriedade aqui de display */ 
+}
+
+/* Falta colocar o seletor para o elemento img dentro de outro elemento com a clase figMedico * /{
+    /* falta propriedade aqui de sombra de caixa */
+}
+
+.contato{
+    /* falta propriedade aqui de display */
+}
+
+
